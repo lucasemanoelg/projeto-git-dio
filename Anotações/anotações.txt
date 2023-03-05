@@ -1,0 +1,13 @@
+Comando para se criar uma chave SSH para autenticação.
+
+> ssh-keygen -t ed25519 -C mail@mail.com
+> eval $(ssh-agent -s)
+> ssh-add id_ed25519
+
+Comando para criar, atualizar e sincronizar o diretório do GitHUb.
+
+> git clone "link"
+> git add *
+> git status
+> git commit -m "alteração"
+> git push origin main
